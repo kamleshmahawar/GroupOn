@@ -1,0 +1,109 @@
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  border-collapse: collapse;
+  th {
+    background: #ccc;
+  }
+  td,
+  th {
+    border-bottom: 1px solid #adacac;
+    padding: 8px;
+    text-align: left;
+  }
+  img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+  }
+  tbody {
+    tr {
+      cursor: pointer;
+    }
+  }
+}
+
+.row {
+  width: 100%;
+  display: block;
+  .col-2 {
+    display: inline-block;
+    width: 15%;
+  }
+  .col-10 {
+    display: inline-block;
+    width: 84%;
+    float: right;
+    line-height: 2;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .row {
+    .col-10 {
+      width: 69%;
+    }
+  }
+}
+
+button,
+a {
+  width: 83px;
+  height: 35px;
+  margin: 10px;
+  background: #ccc;
+  border: none;
+  box-sizing: border-box;
+  float: right;
+  cursor: pointer;
+  text-align: center;
+  line-height: 35px;
+  margin-top: 23px;
+}
+
+a {
+  text-decoration: none;
+}
+h1 {
+  display: inline-block;
+}
+
+.overlay {
+  background: rgba(204, 204, 204, 0.8);
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .popup {
+    background: #fff;
+    width: 400px;
+    height: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    form {
+      .form-field {
+        margin-bottom: 10px;
+        label {
+          width: 82px;
+          display: inline-block;
+        }
+        input {
+          width: calc(100% - 90px);
+          height: 21px;
+          border: none;
+          border-bottom: 1px solid #ccc;
+        }
+      }
+    }
+  }
+}
+
+body {
+  margin: 0px;
+}
