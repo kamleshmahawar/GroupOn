@@ -5,4 +5,4 @@
 3) run npm start /GroupOn
 3) run npm start /GroupOn/server
 
-![alt text](https://github.com/kamleshmahawar/GroupOn/blob/master/Web.JPG)
+![alt text](https://github.com/kamleshmahawar/GroupOn/blob/master/Web.PNG)
